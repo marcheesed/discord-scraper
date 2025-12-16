@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # ---------- CONFIG ----------
-SAVE_DIR = "pastry_archive_oct_2025"  # rename each time
+SAVE_DIR = "server_archive"  # rename each time
 ASSETS_DIR = os.path.join(SAVE_DIR, "assets")
-SERVER_ID = 1385413666350039160  # change this to server id
+SERVER_ID = 1234567890123456789  # change this to an actual server id
 BOT_TOKEN = os.getenv("DISCORD_TOKEN")
 MAX_FILENAME_LENGTH = 150
 # ----------------------------
